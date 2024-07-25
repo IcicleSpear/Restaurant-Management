@@ -1,0 +1,288 @@
+ /*
+     CSS STYLES
+*/
+/*  Common CSS*/
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container
+{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+}
+.foot
+{
+    line-height:1px;
+    margin-top: 20px;
+    background-color: white;
+}
+.text-edit
+{
+    color: white;
+}
+.text-edit1
+{
+    color: #3d3d3d;
+}
+.text-center
+{
+    text-align: center;
+}
+.text-right
+{
+    text-align: right;
+}
+.float-container
+{
+    position: relative;
+}
+.edi
+{
+    position: absolute;
+    bottom: 260px ;
+    left: 30%;
+}
+.float-text
+{
+    position: absolute;
+    bottom: 30px;
+    left: 40%;
+}
+h3
+{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.img-fix
+{
+    width: 100%;
+}
+.fix
+{
+    clear: both;
+    float: none;
+}
+.botton
+{
+    padding: 1.5%;
+    font-size: 1rem;
+    border-radius: 5px
+}
+.botton-edit
+{
+    background-color: #ff5252;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.botton-edit1 {
+    background-color: #ff5252;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.botton-edit:hover
+{
+    background-color: green;
+
+}
+.botton-edit1:hover
+{
+    background-color: red;
+
+}
+
+
+/* Navbar */
+.logo
+{
+    width: auto;
+    float: left;
+}
+.menu
+{
+    line-height: 175px;
+}
+.menu ul
+{
+    list-style-type: none;
+}
+.menu ul li
+{
+    display: inline;
+    padding: 1%;
+}
+.menu ul li a
+{
+    color: #ff5252;
+    text-decoration: none;
+}
+.menu ul li a:hover
+{
+    color: #7bed9f;
+    text-decoration: none;
+}
+
+
+/* Food Search*/
+.foodsearch
+{
+    background-image: url(../imag/image2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 11%;
+
+}
+.foodsearch input[type="search"]
+{
+    width: 75%;
+    padding: 2%;
+    font-size: 1rem;
+    border: none;
+}
+/* Categories */
+.categories
+{
+    padding: 2% 0;
+}
+.box-3
+{
+    width: 22%;
+    float: left;
+    margin:  1%;
+}
+/* FOOD MENU*/
+.f1
+{
+    font-size: 3rem;
+    color: whitesmoke;
+}
+.f2
+{
+    font-size: 3rem;
+    color: black;
+}
+.f3
+{
+    font-size: 3rem;
+    color: #0fb9b1;
+}
+.f4
+{
+    font-size: 3rem;
+    color: black;
+}
+.foodmenu
+{
+    background-color: #70a1ff;
+}
+.food-pizza
+{
+    background-image: url(../imag/pizza-bgn);
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 5%;
+}
+.food-south
+{
+    background-image: url(../imag/south-bgn.jpg);
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 5%;
+}
+.food-chinese
+{
+    background-image: url(../imag/chinese-bgn);
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 3%;
+}
+.food-desert
+{
+    background-image: url(../imag/desertbgn.jpg);
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 3%;
+}
+.foodmenu-box
+{
+    width: 45%;
+    margin:1%;
+    padding: 1%;
+    float:left;
+    background-color: white;
+}
+.foodmenu-img
+{
+    width: 20%;
+    float: left;
+}
+.foodmenu-desc
+{
+    width: 75%;
+    float: right;
+    margin: 2%;
+}
+.foodprice
+{
+    font-size: 1.2rem;
+    margin: 2% 0;
+}
+.food-detail
+{
+    font-size: 1rem;
+    color: #747d8c;
+}
+/* About */
+.column-2 {
+    float: left;
+    width: 45%;
+    padding: 40px;
+    padding-left:70px;
+    padding-right: 70px;
+    height: 475px;
+    margin:30px;
+    margin-right:30px;
+    margin-bottom: 70px;
+    background-color: #0fb9b1;
+    line-height:2;
+  }
+  .column-1 {
+    float: right;
+    width: 30%;
+    padding: 20px;
+    padding-left:20px;
+    padding-right: 70px;
+    height: 300px;
+    margin:30px;
+    margin-right:20px;
+    margin-bottom: 50px;
+    background-color: #22a6b3;
+    line-height:1px;
+  }
+
+  /* for Order Section */
+.order{
+    background-color: aqua;
+    width: 50%;
+    margin: 0 auto;
+}
+.input-responsive{
+    width: 96%;
+    padding: 1%;
+    margin-bottom: 3%;
+    border: black;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.order-label{
+    margin-bottom: 1%; 
+    font-weight: bold;
+}

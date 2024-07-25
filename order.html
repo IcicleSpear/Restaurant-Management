@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Important to make website responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Website</title>
+
+    <!-- Link our CSS file -->
+    <link rel="stylesheet" href="css/style1.css">
+</head>
+
+<body>
+      <!--Navbar Section-->
+      <section class="navbar">
+        <div class="container">
+            <div class="logo">
+                <img src="imag/logo.png" alt="Restaurant logo" height="175" class="img-edit">
+            </div>
+            <div class="menu text-right">
+                <ul>
+                    <li>
+                        <a href="in1.html">HOME</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="food.html">Food</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                    <li>
+                        <a href="#">Feedback</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="fix"></div>
+        </div>
+    </section>
+    <!--Order Section-->
+            <h2 class="text-center text-white">Fill this form to confirm your order.</h2>
+
+            <form action="order.html" class="order">
+                <fieldset>
+
+                    <div class="food-menu-img">
+                        <img src="imag/peparoni.jpg" alt="Chicke Hawain Pizza" class="img-responsive img-curve">
+                    </div>
+    
+                    <div class="food-menu-desc">
+                        <h3>Food Title</h3>
+                        <p class="food-price">$2.3</p>
+
+                        <div class="order-label">Quantity</div>
+                        <input type="number" name="qty" class="input-responsive" value="1" required>
+                        
+                    </div>
+
+                </fieldset>
+                <fieldset>
+                    <legend>Delivery Details</legend>
+                    <div class="order-label">Full Name</div>
+                    <input type="text" name="full-name" placeholder="E.g. Abhishek" class="input-responsive" required>
+
+                    <div class="order-label">Phone Number</div>
+                    <input type="tel" name="contact" placeholder="E.g. 9843xxxxxx" class="input-responsive" required>
+
+                    <div class="order-label">Email</div>
+                    <input type="email" name="email" placeholder="E.g. hi@gmail.com" class="input-responsive" required>
+
+                    <div class="order-label">Address</div>
+                    <textarea name="address" rows="10" placeholder="E.g. Street, City, Country" class="input-responsive" required></textarea>
+
+                    <input type="submit" name="submit" value="Confirm Order" class="botton botton-edit1">
+                </fieldset>
+
+            </form>
+
+        </div>
+    </section>
+    <!-- fOOD sEARCH Section Ends Here -->
+
+        <!--footer Section-->
+        <section class="footer foot">
+            <div class="container">
+                <p>This is Build by <a href="https://abhishekag2004.wixsite.com/abhishek" target="_blank">Abhishek</a></p>
+            </div>
+        </section>
+</body>
+</html>
